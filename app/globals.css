@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  --bg: #f8fafc;
+  --fg: #0f172a;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--fg);
+}
+
+button { cursor: pointer; }
+
+/* Simple utility classes (not Tailwind, just lookalikes) */
+.text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+.font-bold { font-weight: 700; }
+.tracking-tight { letter-spacing: -0.01em; }
+.text-slate-600 { color: #475569; }
+.text-slate-500 { color: #64748b; }
+.text-slate-900 { color: #0f172a; }
+.bg-slate-50 { background-color: #f8fafc; }
+.bg-slate-100 { background-color: #f1f5f9; }
+.bg-blue-600 { background-color: #2563eb; }
+.text-white { color: white; }
+.border { border: 1px solid #e2e8f0; }
+.rounded-lg { border-radius: 0.5rem; }
+.rounded-xl { border-radius: 0.75rem; }
+.p-4 { padding: 1rem; }
+.p-6 { padding: 1.5rem; }
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.pt-8 { padding-top: 2rem; }
+.max-w-3xl { max-width: 48rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.h-\[60vh\] { height: 60vh; }
+.overflow-y-auto { overflow-y: auto; }
+.space-y-3 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.75rem; }
+.space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 1rem; }
+.flex { display: flex; }
+.gap-2 { gap: 0.5rem; }
+.flex-1 { flex: 1 1 0%; }
+.min-h-screen { min-height: 100vh; }
+.shadow-sm { box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.focus\:outline-none:focus { outline: none; }
+.focus\:ring-2:focus { box-shadow: 0 0 0 2px #93c5fd; }
+.focus\:ring-blue-500:focus { box-shadow: 0 0 0 2px #3b82f6; }
+.disabled\:opacity-50:disabled { opacity: 0.5; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.inline-block { display: inline-block; }
+.max-w-\[85%\] { max-width: 85%; }
